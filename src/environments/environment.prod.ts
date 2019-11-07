@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  envName: 'prod',
+  // Defines the default language for translations
+  defaultLanguage: 'en',
 };
