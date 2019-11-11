@@ -1,9 +1,9 @@
 import { Injector } from '@angular/core';
 
-let _injectorRef: Injector;
+let injRef: Injector;
 export const injectorRef = (injector?: Injector): Injector => {
   if (injector) {
-    _injectorRef = injector;
+    injRef = injector;
   }
-  return _injectorRef;
+  return injRef;
 };
